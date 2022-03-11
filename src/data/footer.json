@@ -1,0 +1,364 @@
+{
+    "footerNav": [
+        {
+            "title": "#BeColorful #BeBrilliant #BeColorStreet",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "menuOrder": null,
+            "numberOfColumns": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Newsletter",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "menuOrder": 0,
+            "numberOfColumns": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Social Media",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "menuOrder": null,
+            "numberOfColumns": 5,
+            "hasChildren": false,
+            "Children": [
+                {
+                    "title": "Instagram",
+                    "url": "https://www.instagram.com/colorstreet/",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                },
+                {
+                    "title": "Twitter",
+                    "url": "https://twitter.com/colorstreet#xd_co_f=ZDAzODhjMGMtZGQ4Ny00ZmQ5LThhMWUtZDNkOGQzMTZkNWY5~",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                },
+                {
+                    "title": "Facebook",
+                    "url": "https://www.facebook.com/becolorstreet#xd_co_f=ZDAzODhjMGMtZGQ4Ny00ZmQ5LThhMWUtZDNkOGQzMTZkNWY5~",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                },
+                {
+                    "title": "Pinterest",
+                    "url": "https://www.pinterest.com/becolorstreet/",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                },
+                {
+                    "title": "Youtube",
+                    "url": "https://www.youtube.com/channel/UC43ZM4V0jDaDmuLraQjd4gw/featured",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                }
+            ]
+        },
+        {
+            "title": "HELP",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "menuOrder": 1,
+            "numberOfColumns": 1,
+            "hasChildren": true,
+            "Children": [
+                {
+                    "title": "FAQ",
+                    "url": "/faq",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "My Account",
+                    "url": "/auth/login",
+                    "isLink": false,
+                    "isActive": false,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Shipping & Returns",
+                    "url": "/shipping-returns",
+                    "isLink": false,
+                    "isActive": false,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Contact",
+                    "url": "/contact-us",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Stylist Portal",
+                    "url": "/vo.colorstreet.com/login",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Careers",
+                    "url": "/careers",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                }
+            ]
+        },
+        {
+            "title": "EXPLORE",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": true,
+            "menuOrder": 2,
+            "numberOfColumns": 5,
+            "hasChildren": true,
+            "Children": [
+                {
+                    "title": "Our Story",
+                    "url": "/ourstory",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Become A Stylist",
+                    "url": "/enrollment/enrolleeinfo",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "Giving Back",
+                    "url": "/giving",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": null
+                },
+                {
+                    "title": "Join",
+                    "url": "/enrollment",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": true,
+                    "categoryid": null,
+                    "columnNumber": null
+                }
+            ]
+        },
+        {
+            "title": "SHOP",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "menuOrder": 2,
+            "numberOfColumns": 1,
+            "hasChildren": true,
+            "Children": [
+                {
+                    "title": "CATEGORIES",
+                    "url": "/categories",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 1,
+                    "Children": [
+                        {
+                            "title": "Solid Colors",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 11,
+                            "columnNumber": 1
+                        },
+                        {
+                            "title": "Glitters",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 10,
+                            "columnNumber": 1
+                        },
+                        {
+                            "title": "French Manicure",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 16,
+                            "columnNumber": 1
+                        },
+                        {
+                            "title": "Glitter Designs",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 17,
+                            "columnNumber": 1
+                        },
+                        {
+                            "title": "Nail Art Designs",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 18,
+                            "columnNumber": 1
+                        },
+                        {
+                            "title": "Glitter-Dipped",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 24,
+                            "columnNumber": 2
+                        },
+                        {
+                            "title": "Clear Nail Art",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 27,
+                            "columnNumber": 2
+                        },
+                        {
+                            "title": "Pedicure",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 50,
+                            "columnNumber": 2
+                        },
+                        {
+                            "title": "Prism FX",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 124,
+                            "columnNumber": 2
+                        }
+                    ]
+                },
+                {
+                    "title": "COLLECTIONS",
+                    "url": "/collections",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 3,
+                    "Children": [
+                        {
+                            "title": "Fall Collection",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 67,
+                            "columnNumber": 3
+                        },
+                        {
+                            "title": "Awareness Shades",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 68,
+                            "columnNumber": 3
+                        },
+                        {
+                            "title": "Double Agent",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 126,
+                            "columnNumber": 3
+                        }
+                    ]
+                },
+                {
+                    "title": "Best Sellers",
+                    "url": "/bestsellers",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 4
+                },
+                {
+                    "title": "RETIRING SHADES",
+                    "url": "/products/all",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": 52,
+                    "columnNumber": 1
+                },
+                {
+                    "title": "SHOP ALL",
+                    "url": "/products/all",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnNumber": 3
+                }
+            ]
+        }
+    ]
+}

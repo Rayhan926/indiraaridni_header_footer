@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'AktivGroteskEx-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.animaapp.com/AktivGroteskEx-Bold') format('opentype');
+}
+
+@font-face {
+    font-family: 'AktivGroteskEx-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.animaapp.com/AktivGroteskEx-Regular') format('opentype');
+}
+@font-face {
+    font-family: 'Bookmania-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.animaapp.com/Bookmania-Regular') format('opentype');
+}
+@font-face {
+    font-family: 'Bookmania-RegularItalic';
+    font-style: italic;
+    font-weight: 400;
+    src: url('https://fonts.animaapp.com/Bookmania-RegularItalic') format('opentype');
+}
+@font-face {
+    font-family: 'Bookmania-Light';
+    font-style: normal;
+    font-weight: 200;
+    src: url('https://fonts.animaapp.com/Bookmania-Light') format('opentype');
+}
+@font-face {
+    font-family: 'Termina-Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.animaapp.com/Termina-Bold') format('opentype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

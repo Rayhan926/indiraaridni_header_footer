@@ -1,0 +1,288 @@
+{
+    "headerNav": [
+        {
+            "title": "SHOP",
+            "url": "/products/all",
+            "isActive": true,
+            "isLink": true,
+            "headLine": true,
+            "order": 1,
+            "column": 2,
+            "withImage": true,
+            "hasChildren": true,
+            "Children": [
+                {
+                    "title": "CATEGORIES",
+                    "url": "/categories",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "order": 1,
+                    "columnWidth": "65%",
+                    "column": 2,
+                    "Children": [
+                        {
+                            "title": "Solid Colors",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 11,
+                            "order": 1
+                        },
+                        {
+                            "title": "Glitters",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 10,
+                            "order": 2
+                        },
+                        {
+                            "title": "French Manicure",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 16,
+                            "order": 3
+                        },
+                        {
+                            "title": "Glitter Designs",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 17,
+                            "order": 4
+                        },
+                        {
+                            "title": "Nail Art Designs",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 18,
+                            "order": 5
+                        },
+                        {
+                            "title": "Glitter-Dipped",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 24,
+                            "order": 6
+                        },
+                        {
+                            "title": "Clear Nail Art",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 27,
+                            "order": 7
+                        },
+                        {
+                            "title": "Pedicure",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 50,
+                            "order": 8
+                        },
+                        {
+                            "title": "Prism FX",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 124,
+                            "order": 9
+                        }
+                    ]
+                },
+                {
+                    "title": "COLLECTIONS",
+                    "url": "/collections",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnWidth": "35%",
+                    "order": 2,
+                    "Children": [
+                        {
+                            "title": "Fall Collection",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 67,
+                            "order": 3
+                        },
+                        {
+                            "title": "Awareness Shades",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 68,
+                            "order": 3
+                        },
+                        {
+                            "title": "Double Agent",
+                            "url": "/products/all",
+                            "isActive": true,
+                            "isLink": true,
+                            "headLine": false,
+                            "categoryid": 126,
+                            "order": 3
+                        }
+                    ]
+                },
+                {
+                    "title": "RETIRING SHADES",
+                    "url": "/products/all",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": 52,
+                    "columnWidth": "65%",
+                    "order": 3
+                },
+                {
+                    "title": "SHOP ALL",
+                    "url": "/products/all",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "columnWidth": "35%",
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "title": "EXPLORE",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": true,
+            "order": 2,
+            "column": 5,
+            "hasChildren": true,
+            "Children": [
+                {
+                    "title": "Our Story",
+                    "url": "/ourstory",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "order": 1
+                },
+                {
+                    "title": "Become A Stylist",
+                    "url": "/enrollment/enrolleeinfo",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "order": 2
+                },
+                {
+                    "title": "Giving Back",
+                    "url": "/giving",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": false,
+                    "categoryid": null,
+                    "order": 3
+                },
+                {
+                    "title": "Join",
+                    "url": "/enrollment",
+                    "isLink": true,
+                    "isActive": true,
+                    "headLine": true,
+                    "categoryid": null,
+                    "order": 4
+                }
+            ]
+        },
+        {
+            "title": "Join",
+            "url": "/enrollment",
+            "isActive": true,
+            "isLink": true,
+            "headLine": true,
+            "order": 3,
+            "column": 1,
+            "hasChildren": false
+        },
+        {
+            "title": "Search",
+            "endNav": true,
+            "iconSrc": "/icons/search.svg",
+            "url": "/products/all?keywords=",
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "order": 1,
+            "column": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Language",
+            "endNav": true,
+            "iconSrc": "/icons/language-english.svg",
+            "url": null,
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "order": 2,
+            "column": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Profile",
+            "endNav": true,
+            "iconSrc": "/icons/account.svg",
+            "url": "/account",
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "order": 3,
+            "column": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Cart",
+            "endNav": true,
+            "iconSrc": "/icons/bag.svg",
+            "url": "/cart",
+            "isActive": true,
+            "isLink": true,
+            "headLine": false,
+            "order": 4,
+            "column": null,
+            "hasChildren": false
+        },
+        {
+            "title": "Your Stylist",
+            "endNav": true,
+            "isButton": true,
+            "url": "/stylist",
+            "isActive": true,
+            "isLink": false,
+            "headLine": false,
+            "order": 5,
+            "column": null,
+            "hasChildren": false
+        }
+    ]
+}

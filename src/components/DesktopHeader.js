@@ -1,12 +1,10 @@
 import classNames from 'classnames'
-import { BsHandbag, BsSearch } from 'react-icons/bs'
-import { AiOutlineUser } from 'react-icons/ai'
 import headerData from '../data/header_test.json'
 
 const CenterNavClass = 'border-b-2 border-transparent hover:border-dark-gray py-6 block'
-function HeaderDesktop() {
+function DesktopHeader() {
     return (
-        <header className="px-14 flex items-center justify-between border-slate-100 border-b relative" >
+        <header className="px-14 items-center justify-between border-slate-100 border-b relative hidden md:flex" >
             {/* Logo --Start-- */}
             <div>
                 <a href="/">
@@ -32,19 +30,23 @@ function HeaderDesktop() {
                                 </a>
 
                                 {/* Dropdown Nav --Start-- */}
-                                {nav?.hasChildren ? <div className="absolute top-[calc(100%+1px)] left-0 w-full px-14 translate-y-5 opacity-0 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto duration-200 cursor-default bg-white border-b border-slate-100 shadow-md shadow-slate-100">
+                                {nav?.hasChildren ? <div className="absolute top-[calc(100%+1px)] left-0 w-full px-14 opacity-0 pointer-events-none translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto duration-200 cursor-default bg-white border-b border-slate-100 shadow-md shadow-slate-100">
                                     <div className={
                                         classNames(
                                             'py-12',
                                             nav?.withImage && 'grid grid-cols-[65%,auto] '
                                         )
                                     }>
-                                        <div className="flex gap-y-10 flex-wrap items-start justify-start">
+                                        <div className="gap-y-10 grid"
+                                            style={{
+                                                gridTemplateColumns: typeof nav?.column === 'number' ? `repeat(${nav?.column}, 1fr)` : nav?.column
+                                            }}
+                                        >
                                             {nav?.Children?.map((child_nav, i) => (
                                                 <div
                                                     key={i}
                                                     style={{
-                                                        width: child_nav?.columnWidth || (100 / nav?.column) + '%',
+                                                        // width: child_nav?.columnWidth || (100 / nav?.column) + '%',
                                                         order: child_nav?.order || 'unset'
                                                     }}
                                                 >
@@ -56,7 +58,7 @@ function HeaderDesktop() {
                                                         key={i}
                                                         className="mt-5 gap-y-4 gap-x-5 grid"
                                                         style={{
-                                                            gridTemplateColumns: `repeat(${child_nav?.column || '1'}, 1fr)`
+                                                            gridTemplateColumns: typeof child_nav?.column === 'number' ? `repeat(${child_nav?.column}, 1fr)` : child_nav?.column
                                                         }}
                                                     >
                                                         {Array.isArray(child_nav?.Children) && child_nav?.Children.map((child_nav_item, child_nav_key) => (
@@ -123,6 +125,6 @@ function HeaderDesktop() {
     )
 }
 
-export default HeaderDesktop
+export default DesktopHeader
 
 

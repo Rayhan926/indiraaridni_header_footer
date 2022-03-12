@@ -1,9 +1,11 @@
-import HeaderDesktop from "./components/HeaderDesktop"
+import DesktopHeader from "./components/DesktopHeader"
+import MobileHeader from "./components/MobileHeader"
 
 function App() {
   return (
     <>
-      <HeaderDesktop />
+      <DesktopHeader />
+      <MobileHeader />
     </>
   )
 }

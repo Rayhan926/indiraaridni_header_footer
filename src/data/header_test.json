@@ -7,7 +7,7 @@
             "isLink": true,
             "headLine": true,
             "order": 1,
-            "column": 2,
+            "column": "65% 35%",
             "withImage": true,
             "hasChildren": true,
             "Children": [
@@ -227,6 +227,7 @@
         {
             "title": "Search",
             "endNav": true,
+            "disableForMobile": true,
             "iconSrc": "/icons/search.svg",
             "url": "/products/all?keywords=",
             "isActive": true,
@@ -237,8 +238,9 @@
             "hasChildren": false
         },
         {
-            "title": "Language",
+            "title": "English",
             "endNav": true,
+            "orderInMobile": 2,
             "iconSrc": "/icons/language-english.svg",
             "url": null,
             "isActive": true,
@@ -249,7 +251,7 @@
             "hasChildren": false
         },
         {
-            "title": "Profile",
+            "title": "Login",
             "endNav": true,
             "iconSrc": "/icons/account.svg",
             "url": "/account",
@@ -257,12 +259,14 @@
             "isLink": true,
             "headLine": false,
             "order": 3,
+            "orderInMobile": 1,
             "column": null,
             "hasChildren": false
         },
         {
             "title": "Cart",
             "endNav": true,
+            "disableForMobile": true,
             "iconSrc": "/icons/bag.svg",
             "url": "/cart",
             "isActive": true,

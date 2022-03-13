@@ -39,3 +39,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.submenu_side_img_wrapper:hover .submenu_side_img {
+    @apply scale-125;
+}
+.desktop_child_nav_link:hover span {
+    @apply translate-x-2;
+}

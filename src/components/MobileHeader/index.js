@@ -27,11 +27,17 @@ function MobileHeader() {
         const shouldCloseSidebarOnOverlyClick = (e) => {
             if (e.target.id === 'sidebar_overly') closeSidebarHandler()
         }
-
         window.addEventListener('click', shouldCloseSidebarOnOverlyClick)
 
         return () => window.removeEventListener('click', shouldCloseSidebarOnOverlyClick)
     }, [])
+
+    useEffect(() => {
+        if (isOpenSidebar) document.body.style.overflow = 'hidden';
+        else document.body.style.overflow = 'auto';
+    }, [isOpenSidebar])
+
+    const endNav = headerData.headerNav.filter(e => e?.endNav && !e?.disableForMobile)
 
     return (
         <>
@@ -115,9 +121,9 @@ function MobileHeader() {
 
                     {/* Sidebar Bottom Part --Start-- */}
                     <div className="mt-10" >
-                        <ul className="pb-8 grid grid-cols-1" >
+                        <ul className="pb-5 grid grid-cols-1" >
                             {
-                                headerData.headerNav.filter(e => e?.endNav && !e?.disableForMobile).map((nav, index) => (
+                                endNav.map((nav, index) => (
                                     <li key={index} style={{ order: nav?.orderInMobile || nav?.order || 'unset' }}>
                                         {
                                             !nav?.isButton ? (
@@ -135,6 +141,12 @@ function MobileHeader() {
                                     </li>
                                 ))
                             }
+                            <li className="md:hidden" style={{ order: endNav.length + 1 }}>
+                                <a href="#" className="font-aktivGroteskEx-regular block px-5 py-2 pt-3">FAQ</a>
+                            </li>
+                            <li className="md:hidden" style={{ order: endNav.length + 1 }}>
+                                <a href="#" className="font-aktivGroteskEx-regular block px-5 py-2">Contact Us</a>
+                            </li>
                         </ul>
                     </div>
                     {/* Sidebar Bottom Part --End-- */}
